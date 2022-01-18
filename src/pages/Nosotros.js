@@ -1,3 +1,4 @@
+import '../styles/components/pages/Nosotros.css'
 const Nosotros = (props) => {
     return (
         <main className="holder">

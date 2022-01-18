@@ -1,24 +1,6 @@
+import '../styles/components/pages/Zonasytarifas.css'
 const Zonasytarifas = (props) => {
     return (
-        <div>
-            <div className="container-all" id="modal" style="z-index: 1;">
-            <div className="popup">
-                <div className="img0"></div>
-                <a href="#zona" className="btn-close-popup">X</a>
-            </div>
-        </div>
-        <div className="container-all" id="modal1" style="z-index: 1;">
-            <div className="popup">
-                <div className="img1"></div>
-                <a href="#zona" className="btn-close-popup">X</a>
-            </div>
-        </div>
-        <div className="container-all" id="modal2" style="z-index: 1;">
-            <div className="popup">
-                <div className="img2"></div>
-                <a href="#zona" className="btn-close-popup">X</a>
-            </div>
-        </div>
         <main className="holder">
         <h2>Ciudad Autonoma de Buenos Aires</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error omnis culpa adipisci vitae atque
@@ -42,7 +24,7 @@ const Zonasytarifas = (props) => {
             <a href="#modal2" class="btn-open-popup">Ampliar</a>
         </div>
     </main>
-    </div>
+    
     );
 }
 

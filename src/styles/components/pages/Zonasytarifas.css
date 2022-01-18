@@ -1,0 +1,102 @@
+.zona{
+    width: 350px;
+    height: 200px;
+    position: relative; 
+    float: left;
+    margin: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+.zona a {
+    margin: auto;  
+    color: #fff;
+    text-align: center;    
+    line-height: 200px;     
+    background: #000;
+    transition: opacity .4s linear;
+    cursor: pointer;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+.zona:hover a {
+    opacity: .75;  
+  }
+
+.btn-open-popup{
+    text-decoration: none;
+}
+
+.container-all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+
+.container-all:target{
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .img0{
+     width: 100%;
+     background-image: url(../../../../public/img/Tarifas/zona\ norte.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     border-radius: 30px;   
+     box-shadow: 0px 0px 30px white; 
+ }
+
+ .img1{
+    width: 100%;
+    background-image: url(../../../../public/img/Tarifas/zona\ oeste.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px; 
+    box-shadow: 0px 0px 30px white;   
+}
+
+.img2{
+    width: 100%;
+    background-image: url(../../../../public/img/Tarifas/zona\ sur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px white;   
+}
+ .btn-close-popup{
+     width: 10px;
+     height: 10px;
+     position: absolute;
+     padding: 10px;
+     top: -20px;
+     right: -20px;
+     background-color: black;
+     color: white;
+     border-radius: 50%;
+     line-height: 15px;
+     text-decoration: none;
+     border-width: medium;
+     border-color: white;
+     border-style: double;
+     box-shadow: 0px 0px 30px white; 
+ }

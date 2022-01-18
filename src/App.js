@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
-// import './App.css';
-
+import './App.css';
+import './normalize.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/layout/Header";
@@ -26,7 +26,7 @@ function App() {
         <Route path="/nosotros" exact element={<Nosotros />} />
         <Route path="/Zonasytarifas" exact element={<Zonasytarifas />} />
         <Route path="/Galeria" exact element={<Galeria />} />
-        <Route path="/Sericios" exact element={<Servicios />} />
+        <Route path="/Servicios" exact element={<Servicios />} />
         <Route path="/Contacto" exact element={<Contacto />} />
         <Route path="/Novedades" exact element={<Novedades />} />
       </Routes>

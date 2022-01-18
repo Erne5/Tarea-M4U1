@@ -1,0 +1,53 @@
+.Historia p{
+    font-size: 1.2em;
+}
+
+.staff{
+    overflow: hidden;
+}
+
+.situacion{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+}
+
+.situacion{
+    text-align: center;
+}
+
+.situacion img{
+    border-radius: 30px;
+    box-shadow: 0 0 5px black;
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+    width: 300px;
+    height: 250px;
+}
+
+.situacion h5,
+.situacion h6{
+    text-align: center;
+    font-weight: normal;
+    color: blueviolet;
+    margin: 0;
+    text-shadow: 1px 1px 0 black;
+}
+
+.situacion h5{
+    font-size: 1.1em;
+}
+
+.situacion h6{
+    font-size: 1em;
+    font-style: italic;
+}
+
+.situacion p{
+    font-size: 0.9em;
+    color: black;
+    margin: 0 1em 1em;
+}
