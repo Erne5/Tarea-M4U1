@@ -13,6 +13,7 @@
 .bienvenidos{
     width: 75%;
     padding-right: 2em;
+    font-size: larger;
 }
 
 .testimonios{
@@ -36,4 +37,24 @@
     text-align: center;
     margin: 1 em 0;
     display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .bienvenidos{
+        width: 100%;
+        font-size: larger;
+    }
+    
+    .testimonios{
+        width: 100%;
+        font-size: larger;
+        margin-top: 50px;
+    }
+    .testimonios .cita{
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
 }

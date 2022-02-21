@@ -37,3 +37,29 @@ nav{
     box-shadow: inset 5px 5px 10px black;
     font-size: 0.9em;
   }
+
+  @media screen  and (max-width: 600px) {
+  nav ul li{
+    display:contents;
+    font-size: xx-large;
+    
+  }
+
+  nav ul{
+    padding: 1em;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+  }
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    background-color: darkorchid;
+  }
+}

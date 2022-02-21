@@ -38,16 +38,32 @@
 }
 
 .situacion h5{
-    font-size: 1.1em;
+    font-size: 1.5em;
+    margin-top: 7px;
 }
 
 .situacion h6{
-    font-size: 1em;
+    font-size: 1.1em;
     font-style: italic;
+    margin: 5px;
 }
 
 .situacion p{
     font-size: 0.9em;
     color: black;
     margin: 0 1em 1em;
+}
+
+@media screen and (max-width: 600px) {
+    .situacion{
+        width: 100%;
+        border: 1px 1px solid gray;
+        border-radius: 0.25em;
+        float:right;
+        margin-left: 1.25%;
+        margin-right: 1.25%;
+        box-sizing: border-box;
+    }
+    
+    
 }

@@ -28,10 +28,6 @@
     opacity: .75;  
   }
 
-.btn-open-popup{
-    text-decoration: none;
-}
-
 .container-all{
     width: 100%;
     height: 100%;
@@ -47,50 +43,32 @@
     opacity: 1;
 }
 
-.popup{
-    width: 100%;
-    max-width: 900px;
-    height: 500px;
-    position: relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
- .img0{
-     width: 100%;
-     background-image: url(../../../../public/img/Tarifas/zona\ norte.png);
-     background-size: contain;
-     background-repeat: no-repeat;
-     border-radius: 30px;   
-     box-shadow: 0px 0px 30px white; 
- }
-
- .img1{
-    width: 100%;
-    background-image: url(../../../../public/img/Tarifas/zona\ oeste.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 30px; 
-    box-shadow: 0px 0px 30px white;   
+.nextb{
+  display: block;
+  color:#30d3b0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0 0 5px white    
 }
 
-.img2{
-    width: 100%;
-    background-image: url(../../../../public/img/Tarifas/zona\ sur.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    box-shadow: 0px 0px 30px white;   
+.nextb:hover{
+  font-size: 60px;
+  text-shadow: 0 0 10px white;
+  transition: 0.3s;
 }
- .btn-close-popup{
-     width: 10px;
+
+.closeb{
+    width: 10px;
      height: 10px;
      position: absolute;
      padding: 10px;
-     top: -20px;
-     right: -20px;
-     background-color: black;
+     top: 1px;
+     right: 140px;
+     background-color: rgb(196, 34, 34);
      color: white;
      border-radius: 50%;
      line-height: 15px;
@@ -99,4 +77,44 @@
      border-color: white;
      border-style: double;
      box-shadow: 0px 0px 30px white; 
- }
+}
+
+@media screen and (max-width: 600px) {
+  .zona{
+    width: 100%;
+    height: 200px;
+    position: relative; 
+    float: left;
+    margin: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  .zona a {
+    width: 72%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .closeb{
+    width: 10px;
+         height: 10px;
+         position: relative;
+         padding: 10px;
+         top: -130px;
+         right: 130px;
+         background-color: black;
+         color: white;
+         border-radius: 50%;
+         line-height: 15px;
+         text-decoration: none;
+         border-width: medium;
+         border-color: white;
+         border-style: double;
+         box-shadow: 0px 0px 30px white; 
+    
+  }
+}

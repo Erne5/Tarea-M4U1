@@ -5,14 +5,8 @@ const Home = (props) => {
             <div className="columnas">
                 <div className="bienvenidos left">
                     <h2>¡¡Bienvenidos!!</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusamus numquam nostrum
-                        provident praesentium nisi esse pariatur excepturi, quia eligendi natus molestiae dolore labore
-                        ut
-                        fuga corrupti quod voluptates quas!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit vero perspiciatis ullam!
-                        Praesentium
-                        quidem placeat obcaecati quas quod perspiciatis voluptatibus perferendis ex sit aliquam beatae
-                        repellendus, modi, officia voluptates magnam.</p>
+                    <p>Sean bienvenidos a la pagina de servicio de motomensajería Ouroboros. Prestamos servicio para todo el ambito de la ciudad de Buenos Aires.</p>
+                    <p>Nuestro servicio es de puerta a puerta. Sientanse libres de explorar la pagina para conocer nuestra historia y nuestros servicios. Ante cualquier duda, pueden contactarnos en la seccion "contacto". No olviden revizar en la seccion "novedades" para obtener información actualizada. </p>
                 </div>
                 <div className="testimonios right">
                     <h2>Testimonios</h2>

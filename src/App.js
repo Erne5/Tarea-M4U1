@@ -8,7 +8,6 @@ import Nav from "./components/layout/Nav";
 import Footer from "./components/layout/Footer";
 
 import Home from "./pages/Home";
-import Zonasytarrifas from "./pages/Zonasytarifas";
 import Servicios from "./pages/Servicios";
 import Galeria from "./pages/Galeria";
 import Nosotros from "./pages/Nosotros";

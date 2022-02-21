@@ -3,7 +3,7 @@ import axios from 'axios';
 import NovedadItem from '../components/novedades/NovedadItem';
 
 
-import '../styles/components/pages/Novedades.css'
+import '../styles/components/pages/Novedades.css';
 
 const Novedades = (props) => {
 
