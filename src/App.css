@@ -3,7 +3,7 @@ body{
   font-size: 16px;
   line-height: 20px;
   background-image: url(../public/img/Galeria/fondoprincipal.png);
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-size: 1400px 1200px;
 }
 

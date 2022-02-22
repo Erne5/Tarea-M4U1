@@ -15,7 +15,7 @@ const Servicios = (props) => {
                 <img src="img/Servicios/Motos-Potentes-2020.jpg" alt="Largas Distancias"/>
                 <div className="info">
                     <h4>Largas Distancias</h4>
-                    <p>Los viajes a zonas muy alejadas no es problema para nuestra flota de mensajeros. El unico requisito para garantizar el envío exitoso te tu pedido es hacer la reserva con un día de anticipación.</p>
+                    <p>Los viajes a zonas muy alejadas no es problema para nuestra flota de mensajeros. El unico requisito para garantizar el envío exitoso de tu pedido es hacer la reserva con un día de anticipación.</p>
                 </div>
             </div>
             <div className="Servicio">
